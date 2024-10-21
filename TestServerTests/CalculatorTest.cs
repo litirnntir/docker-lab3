@@ -15,7 +15,7 @@ public class CalculatorTest
             new() { Id = 0, Value = 2 }
         };
 
-        var expectedSum = 3;
+        var expectedSum = 10;
 
         var sum = Calculator.Sum(numbers);
 
